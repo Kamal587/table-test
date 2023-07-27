@@ -1,0 +1,27 @@
+.search {
+  position: relative;
+  max-width: 630px;
+  height: 52px;
+}
+
+.inpSearch {
+  background-color: #5a5c66;
+  z-index: 1;
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+.inpSearch::placeholder {
+  font: "Roboto";
+  font-size: 14px;
+  color: #b2b7bf;
+  padding-left: 20px;
+}
+
+.imgSearch {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+
+  z-index: 2;
+}

@@ -1,0 +1,26 @@
+table {
+  font-family: "Roboto", sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  height: 30px;
+  text-align: center;
+}
+
+table td {
+  font-size: 13px;
+}
+
+table th {
+  padding: 20px 0px;
+
+  font-size: 14px;
+  text-align: center;
+  background-color: #474955;
+  color: white;
+  border: none;
+}
